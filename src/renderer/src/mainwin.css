@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@plugin 'daisyui' {
+	themes: dark --default;
+  logs: false;
+}
+
+.win-no-drag {
+  app-region: no-drag;
+}
+
+.win-drag {
+  app-region: drag;
+}

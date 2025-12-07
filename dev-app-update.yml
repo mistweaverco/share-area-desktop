@@ -1,0 +1,4 @@
+---
+provider: generic
+url: https://auto-updates.share-area-desktop.mwco.app
+updaterCacheDirName: share-area-desktop-updater

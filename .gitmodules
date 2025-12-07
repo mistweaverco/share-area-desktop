@@ -1,0 +1,3 @@
+[submodule ".config/vale-config"]
+	path = .config/vale-config
+	url = https://github.com/mistweaverco/vale-config
