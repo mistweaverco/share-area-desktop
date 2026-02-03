@@ -1,4 +1,4 @@
-import icon from './../../../logo.svg?raw'
+import icon from './../../../build/icon.svg?raw'
 const symbols = {
   '%': '%25',
   '<': '%3C',

@@ -1,4 +1,4 @@
-import { app, BrowserWindow, desktopCapturer, screen, session } from 'electron'
+import { app, BrowserWindow, desktopCapturer, session } from 'electron'
 import { join } from 'path'
 import { electronApp } from '@electron-toolkit/utils'
 import icon from './../../resources/icon.png?asset'
@@ -49,7 +49,6 @@ async function createMainWindow(splashWin: BrowserWindow): Promise<BrowserWindow
     autoHideMenuBar: true,
     titleBarStyle: 'hidden',
     closable: true,
-    // transparent: true,
     minimizable: true,
     frame: false,
     ...(process.platform === 'linux' ? { icon } : {}),
